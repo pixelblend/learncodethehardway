@@ -7,7 +7,7 @@ int main(int argc, char *argv[])
   //go through each string in argv
   //skipping the first arg because 
   //that's the filename
-  for(i = 0; i < argc, i != 2; i++) {
+  for(i = 1; i < argc, i != 2; i++) {
     printf("arg %d: %s\n", i, argv[i]);
   }
 
