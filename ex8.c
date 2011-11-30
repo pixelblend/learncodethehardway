@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
 
   //areas[0] = name[0];
 
-  printf("4th letter: %d\n", name[3]);
+  printf("4th letter of %s: %d\n", name, name[3]);
 
   printf("The size of an int: %1ld\n", sizeof(int));
   printf("The size of areas (int[]): %ld\n",
